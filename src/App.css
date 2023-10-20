@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.app {
+  @apply p-10;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table {
+  @apply w-full;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.table_head {
+  @apply py-3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.table_h {
+  @apply font-bold pb-4 text-left;
 }
 
-.App-link {
-  color: #61dafb;
+.table_price {
+  @apply font-bold pb-4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table_date {
+  @apply font-light text-gray-400;
+}
+
+.table_status {
+  @apply font-light text-gray-400;
+}
+
+.table_status-red {
+  @apply font-normal text-red-400;
+}
+
+.table_email {
+  @apply font-semibold;
+}
+
+.table_firstRow {
+  @apply font-semibold pt-4;
 }
